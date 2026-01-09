@@ -1,15 +1,14 @@
-# configuracion_ctf
-
-#!/bin/bash
+# Configuracion CTF
 
 ## :computer: Instalación Findips arp-scan
 ```bash
 cd /opt
 sudo rm -rf findips_arp-scan && sudo mkdir findips_arp-scan
+cd findips_arp-scan
 sudo wget https://raw.githubusercontent.com/dzh0ni/configuracion_ctf/refs/heads/main/findips_arp-scan
 sudo cp /usr/share/arp-scan/ieee-oui.txt /opt/findips_arp-scan
 sudo cp /etc/arp-scan/mac-vendor.txt /opt/findips_arp-scan
-sudo chmod +x findips_arp-scan/*
+sudo chmod +x *
 cd 
 sudo echo "cd /opt/findips_arp-scan && sudo ./findips_arp-scan" > farpscan
 sudo chmod +x farpscan
@@ -41,13 +40,13 @@ sudo apt-get install -y xclip
 cd
 ```
 
-## :computer: Instalación Ping-TTL
+## :computer: Instalación Ping TTL
 ```bash
+cd
 sudo wget https://raw.githubusercontent.com/dzh0ni/configuracion_ctf/refs/heads/main/pttl.sh
 sudo chmod +x pttl.sh
 sudo mv pttl.sh pttl
 sudo rm -rf /usr/local/bin/pttl
 sudo mv pttl /usr/local/bin/
-ls -lthas
 cd
 ```
