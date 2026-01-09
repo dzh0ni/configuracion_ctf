@@ -1,11 +1,4 @@
 #!/bin/bash
-#====================================================
-#   SCRIPT:                   FIND IP'S - ARP-SCAN
-#   DESARROLLADO POR:         JONY RIVERA (Dzhoni)
-#   FECHA DE ACTUALIZACIÓN:   01-04-2024 
-#   CONTACTO POR TELEGRAMA:   https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ
-#   GITHUB OFICIAL:           https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Findips
-#====================================================
 
 # Paleta de colores
 reset="\033[0m"       # Restablecer todos los estilos y colores
@@ -37,12 +30,12 @@ bg_cyan="\033[0;46m"      # Fondo Cian
 bg_white="\033[0;47m"     # Fondo Blanco
 
 # Iconos v3
-checkmark="${white}[${green}+${white}]${green}"
-error="${white}[${red}-${white}]${red}"
-info="${white}[${yellow}*${white}]${yellow}"
-unknown="${white}[${blue}!${white}]${blue}"
+checkmark="${white}[${green}++${white}]${green}"
+error="${white}[${red}--${white}]${reset}"
+info="${white}[${yellow}**${white}]${white}"
+unknown="${white}[${blue}!!${white}]${reset}"
 process="${white}[${magenta}>>${white}]${magenta}"
-indicator="${red}==>${cyan}"
+indicator="${red}==>${reset}"
 
 # Barra de separación
 barra="${blue}|--------------------------------------------|${reset}"
@@ -142,7 +135,7 @@ Acciones() {
     echo -e "${green}$ttl_os\t$os\t$ip"
     echo -e "\n${checkmark} ${green} Escaneo finalizado"
 
-    echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Findips\n"
+    echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/dzh0ni/configuracion_ctf\n"
     echo -e "$barra"
 }
 

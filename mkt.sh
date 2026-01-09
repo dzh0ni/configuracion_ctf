@@ -1,11 +1,4 @@
 #!/bin/bash
-#====================================================
-#   SCRIPT:                   DIRECTORIO MKT
-#   DESARROLLADO POR:         JENN VALENTINE 
-#   FECHA DE ACTUALIZACIÓN:   01-04-2024 
-#   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
-#   GITHUB OFICIAL:           https://github.com/JennValentine/Directorio-mkt
-#====================================================
 
 # Paleta de colores
 reset="\033[0m"       # Restablecer todos los estilos y colores
@@ -68,7 +61,7 @@ function mkt () {
     # Muestra un mensaje de finalización
     echo -e "\n${checkmark} ${green}Proceso de creación de directorios completado"
 
-    echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/Directorio-mkt\n"
+    echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/dzh0ni/configuracion_ctf\n"
     echo -e "$barra"
 }
 

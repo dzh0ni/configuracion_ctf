@@ -1,11 +1,4 @@
 #!/bin/bash
-#====================================================
-#   SCRIPT:                   EXTRACT PORTS
-#   DESARROLLADO POR:         JENN VALENTINE 
-#   FECHA DE ACTUALIZACIÓN:   01-04-2024
-#   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
-#   GITHUB OFICIAL:           https://github.com/JennValentine/extractPorts
-#====================================================
 
 # Paleta de colores
 reset="\033[0m"       # Restablecer todos los estilos y colores
@@ -64,7 +57,7 @@ function extractPorts () {
         echo -e "\n${green}EXTRACT PORTS"
         echo -e "\n${green}Uso:${reset}\n"
         echo -e "${white}  Ejemplo de uso:${reset}\t\t${green}extractPorts allPorts.gnmap"
-        echo -e "\n${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/extractPorts\n"
+        echo -e "\n${info} ${white}GITHUB OFICIAL: ${green}https://github.com/dzh0ni/configuracion_ctf\n"
         echo -e "$barra"
         exit 1
     fi
@@ -102,7 +95,7 @@ function extractPorts () {
 
     echo -e "\n${checkmark} ${green}Puertos copiados al portapapeles${reset}"
 
-    echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/extractPorts\n"
+    echo -e "\n${yellow}${info} ${white}GITHUB OFICIAL: ${green}https://github.com/dzh0ni/configuracion_ctf\n"
     echo -e "$barra"
 }
 

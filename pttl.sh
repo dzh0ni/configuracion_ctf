@@ -1,11 +1,4 @@
 #!/bin/bash
-#====================================================
-#   SCRIPT:                   PING TTL
-#   DESARROLLADO POR:         JENN VALENTINE 
-#   FECHA DE ACTUALIZACIÓN:   16-03-2024 
-#   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
-#   GITHUB OFICIAL:           https://github.com/JennValentine/Ping-TTL
-#====================================================
 
 # Paleta de colores
 reset="\033[0m"       # Restablecer todos los estilos y colores
@@ -68,7 +61,7 @@ tipe_ttl() {
     echo -e "\t${indicator} ${green}Tiempo de Vida:         ${white}$ttl"
     echo -e "\t${indicator} ${green}Sistema Operativo:      ${yellow}$os"
     echo -e "\n${white}Valores de TTL: 1-64 (Linux/Unix), 65-128 (Windows), 129-191 (macOS), 192-254 (Cisco IOS)."
-    echo -e "\n${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/Ping-TTL\n"
+    echo -e "\n${info} ${white}GITHUB OFICIAL: ${green}https://github.com/dzh0ni/configuracion_ctf\n"
     echo -e "$barra"
     exit 0
 }
@@ -90,7 +83,7 @@ else
     echo -e "\n${green}Uso:${reset}\n"
     echo -e "${white}  Ejemplo con IP:${reset}\t\t${green}pttl 8.8.8.8"
     echo -e "${white}  Ejemplo con dominio:${reset}\t\t${green}pttl google.com"
-    echo -e "\n${info} ${white}GITHUB OFICIAL: ${green}https://github.com/JennValentine/Ping-TTL\n"
+    echo -e "\n${info} ${white}GITHUB OFICIAL: ${green}https://github.com/dzh0ni/configuracion_ctf\n"
     echo -e "$barra"
 fi
 
