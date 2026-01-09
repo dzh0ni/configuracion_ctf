@@ -50,3 +50,14 @@ sudo rm -rf /usr/local/bin/pttl
 sudo mv pttl /usr/local/bin/
 cd
 ```
+
+## :computer: Instalación Exploits
+```bash
+cd /opt
+sudo rm -rf exploits
+sudo wget https://github.com/dzh0ni/configuracion_ctf/raw/refs/heads/main/exploits.zip
+sudo unzip exploits.zip
+sudo rm -rf exploits.zip
+cd
+```
+
